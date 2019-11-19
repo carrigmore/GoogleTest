@@ -48,6 +48,7 @@ public class GoogleSearchTest
         GoogleHomePage homepage = new GoogleHomePage(driver);
         homepage.goTo();
         homepage.expandGoogleAppsGrid();
+        homepage.waitForPageToLoad(10);
         GoogleMapsPage googleMaps = homepage.selectGoogleMapFromAppsGrid();
         googleMaps.waitForPageToLoad(10);
         googleMaps.clickGoogleMapsMenu();

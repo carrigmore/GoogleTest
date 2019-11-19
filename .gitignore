@@ -1,0 +1,16 @@
+# Create .gitignore file
+# # OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+.idea/
+.project
+*.iml
+**/.classpath
+**/.project
+**/.settings
+
+**/target/*
